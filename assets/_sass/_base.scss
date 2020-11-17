@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    color: $black;
+    font-family: $sans-serif-font;
+}  
+      
+a {
+    color: $primary-color;
+    text-decoration: none;
+    font-family: $monospace-font;
+}
+  
+a:hover {
+    color: $primary-color-darker;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: $primary-color-darker;
+    text-decoration: underline;
+}
+  
+::selection {
+    background: $secondary-color;
+    color: $primary-color-darker;
+}
+
+.no-bullets {
+    list-style-type: none;
+}

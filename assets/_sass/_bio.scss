@@ -1,0 +1,26 @@
+.bio {
+    margin-top: 10%;
+
+    h2 {
+        color: $primary-color;
+        font-family: $monospace-font;
+    }
+}
+  
+.bio-pic {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-right: 0rem;
+    margin-bottom: 0px;
+    min-width: 50px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 100%;
+}
+  
+.bio-text {
+    margin-top: 14px;
+}

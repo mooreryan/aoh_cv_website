@@ -1,0 +1,36 @@
+nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  
+    li a {
+      display: block;
+    }
+}
+
+.site-navbar {
+  margin-bottom: 1.5rem;
+}
+
+.nav_item {
+    float: left;
+    padding-left: 0px;
+    padding-right: 20px;
+    text-align: left;
+}
+  
+.nav_item--left {
+    float: left;
+    // between item padding
+    padding-right: 20px;
+    text-align: left;
+}
+
+.nav_item--right {
+    float: right;
+    padding-left: 20px;
+    text-align: right;
+}
